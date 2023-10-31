@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: black;
+}
+header {
+  width: 100%;
+  padding: 15px 0;
+  font-weight: 600;
+}
+nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main {
+  width: 100%;
+}
+.about-up,
+.about-down {
+  display: flex;
+  padding: 50px 40px 50px 80px;
+  gap: 100px;
+}
+.about-up-left {
+  width: 70%;
+}
+.about-up img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+.about-down,
+footer,
+header,
+#projects {
+  background-color: #d6d6d6;
+}
+.about-down-left,
+.about-down-right {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+ul {
+  list-style: none;
+}
+.about-down-left img {
+  width: 400px;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 0px 50px;
+  gap: 50px;
+}
+
+.skills h2,
+#projects h2,
+#certifications h2 {
+  align-self: flex-start;
+  padding-left: 80px;
+}
+
+.skills-up,
+.skills-down {
+  display: flex;
+  gap: 100px;
+}
+
+.skills-up div,
+.skills-down div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  font-weight: 600;
+}
+
+.skills img {
+  width: 100px;
+  height: 100px;
+}
+#projects,
+#certifications {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding: 50px 0px;
+}
+.projects-up,
+.projects-down {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  text-align: center;
+}
+
+.projects-up p,
+.projects-down p {
+  width: 400px;
+}
+
+.certifications {
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  width: 100%;
+  position: relative;
+}
+.footer {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  padding: 80px;
+  gap: 80px;
+}
+.links {
+  display: flex;
+  gap: 50px;
+}
+footer img {
+  width: 30px;
+}
+
+footer .go-up {
+  position: absolute;
+  bottom: 30px;
+  padding: 5px 10px;
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+}
